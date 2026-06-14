@@ -1,0 +1,122 @@
+repo:
+  name: "all-mechanical-coherence"
+  description: "Lab reports and notebooks exploring all-mechanical coherence protection and fast control of silicon-vacancy spin qubits."
+
+paper:
+  title: "All-mechanical coherence protection and fast control of a spin qubit"
+  arxiv: "2508.13356"
+  version: "v1"
+  url: "https://arxiv.org/abs/2508.13356"
+  html: "https://arxiv.org/html/2508.13356v1"
+  year: 2025
+
+seminar:
+  event: "JILA Science Seminar"
+  title: "All-mechanical coherence protection and fast control of a silicon vacancy spin qubit"
+  speaker: "Dr. Eliza Cornell"
+  affiliation: "Marko Lončar group, Harvard University"
+  date: "2026-06-18"
+  context: "Upcoming JILA seminar connected to arXiv:2508.13356"
+
+core_claim: >
+  Continuous mechanical driving can create dressed spin states that protect
+  silicon-vacancy spin qubits from low-frequency noise while remaining compatible
+  with phononic quantum devices.
+
+observations:
+  - "Silicon-vacancy centers in diamond have strong spin-strain susceptibility."
+  - "Mechanical cavities can enhance spin-phonon interactions."
+  - "Standard pulsed dynamical decoupling is not naturally compatible with controllable spin-cavity interaction."
+  - "Continuous coherent mechanical driving provides an alternative noise-decoupling scheme."
+  - "The work demonstrates ultrafast spin Rabi rates approaching 800 MHz."
+
+engineering_statements:
+  - id: "AMC-01"
+    category: "Constraint Engineering"
+    statement: >
+      Coherence protection and strong interaction need not be opposing design
+      goals when the control channel is engineered to stabilize the qubit.
+
+  - id: "AMC-02"
+    category: "Quantum Control"
+    statement: >
+      A continuous mechanical drive can protect a spin qubit while preserving
+      compatibility with phononic cavities.
+
+  - id: "AMC-03"
+    category: "Systems Design"
+    statement: >
+      Robust quantum architectures require alignment between control, coupling,
+      readout, and noise suppression.
+
+  - id: "AMC-04"
+    category: "Measurement"
+    statement: >
+      Rabi rates near 800 MHz provide an experimental benchmark for fast
+      all-mechanical spin control.
+
+notebooks:
+  - file: "00_context.ipynb"
+    title: "Context"
+    purpose: "Capture paper metadata, seminar context, abstract, and core claims."
+
+  - file: "01_siv_centers.ipynb"
+    title: "SiV Centers"
+    purpose: "Explain silicon-vacancy centers as optically active spin qubits in diamond."
+
+  - file: "07_spin_strain.ipynb"
+    title: "Spin-Strain Coupling"
+    purpose: "Map why strong spin-strain susceptibility makes mechanical control possible."
+
+  - file: "13_dressed_states.ipynb"
+    title: "Mechanical Dressed States"
+    purpose: "Explain how continuous mechanical driving creates protected dressed spin states."
+
+  - file: "17_coherence_protection.ipynb"
+    title: "Coherence Protection"
+    purpose: "Track the noise-decoupling problem and the reported coherence extension."
+
+  - file: "23_fast_control.ipynb"
+    title: "Fast Control"
+    purpose: "Document ultrafast mechanically driven spin control and ~800 MHz Rabi rates."
+
+  - file: "29_jila_seminar.ipynb"
+    title: "JILA Seminar Notes"
+    purpose: "Collect seminar questions, answers, and follow-up directions."
+
+artifacts:
+  infographic: "figures/2508-13356.png"
+  lab_report: "https://labreports.app/2508-13356/"
+  climate_reality_article: "https://climatereality.app/"
+
+climate_reality:
+  title: "Demystifying Quantum Coherence Protection"
+  statement: >
+    Climate reality describes what engineering prescribes:
+    identify constraints, then build within them.
+  mathematical_context: "c = √(E/m)"
+
+questions_for_seminar:
+  - >
+    Do you expect mechanical dressed-state protection to extend naturally to
+    phonon-mediated two-qubit gates, or do new constraints appear during
+    entangling operations?
+  - >
+    What currently limits the usable coherence time under continuous mechanical
+    driving: drive stability, residual magnetic noise, heating, cavity design,
+    or another constraint?
+  - >
+    Is the main near-term path forward stronger spin-phonon coupling, better
+    mechanical quality factors, improved material fabrication, or integration
+    with optical interfaces?
+
+tags:
+  - "silicon-vacancy"
+  - "spin-qubit"
+  - "phononics"
+  - "mechanical-control"
+  - "coherence-protection"
+  - "dressed-states"
+  - "quantum-information"
+  - "jila-seminar"
+  - "climate-reality"
