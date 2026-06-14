@@ -26,7 +26,7 @@ c = \sqrt{\frac{E}{m}}
 
 | Notebook | Description | Colab |
 |---|---|---|
-| `00_context.ipynb` | Paper metadata, engineering statements, seminar questions, and roadmap toward phonon-mediated quantum gates. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/all-mechanical-coherence/blob/main/notebooks/00_context.ipynb) |
+| `00_context.ipynb` | Paper metadata, engineering statements, seminar questions, and roadmap toward phonon-mediated quantum gates. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/all-mechanical-coherence/blob/main/notebooks/00_context_.ipynb) |
 
 | Notebook | Purpose |
 |---|---|
