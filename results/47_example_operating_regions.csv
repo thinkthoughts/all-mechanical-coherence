@@ -1,0 +1,5 @@
+Design,Finger count,Efficiency,Normalized bandwidth,Interaction strength
+reference platform,0.8,1.0,0.5,0.26666666666666666
+reduced-finger reference,0.4,1.0,1.0,0.13333333333333333
+higher-efficiency reduced-finger,0.4,3.0,1.0,0.4000000000000001
+higher-efficiency medium-finger,0.6,3.0,0.6666666666666667,0.6

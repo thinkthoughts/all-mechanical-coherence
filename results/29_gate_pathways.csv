@@ -1,0 +1,6 @@
+Stage,Requirement,Gate relevance
+Protected single spin,coherence protection,extends available operation window
+Spin–phonon control,usable mechanical drive and bandwidth,enables coherent mechanical interaction
+Phonon bus,shared mechanical mode,connects separated spins
+Entanglement generation,effective spin–spin interaction within coherence window,creates two-qubit resource
+Gate operation,controlled timing and interaction strength,supports programmable quantum operation
