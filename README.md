@@ -1,91 +1,146 @@
-# all-mechanical-coherence
+# All-Mechanical Coherence Protection and Fast Control of a Spin Qubit
 
-<p align="center">
-  <img src="figures/47_operating_regime_expansion.png" alt="Notebook 47 operating regime expansion png" width="800">
-</p>
+Repository accompanying:
 
-<p align="center">
-  <strong>Demystifying quantum coherence protection through lab reports, notebooks, and engineering statements inspired by arXiv:2508.13356.</strong>
-</p>
+**arXiv:2508.13356**
+*All-mechanical coherence protection and fast control of a spin qubit*
 
-**Repository description:** Lab reports and notebooks exploring all-mechanical coherence protection and fast control of silicon-vacancy spin qubits.
+This project explores how continuous mechanical driving creates dressed states that protect spin coherence in SiV centers and how those protected operating regimes may support stronger spin–phonon interactions, shared mechanical modes, and future phonon-mediated gate pathways.
 
----
-
-## Paper
-
-* **Title:** All-mechanical coherence protection and fast control of a spin qubit
-* **arXiv:** [2508.13356](https://arxiv.org/abs/2508.13356)
-* **HTML:** [2508.13356v1](https://arxiv.org/html/2508.13356v1)
+![All-Mechanical Coherence Protection](2508-13356.png)
 
 ---
 
-## Core claim
+## Overview
 
-Continuous mechanical driving can create dressed spin states that protect silicon-vacancy spin qubits from low-frequency noise while remaining compatible with phononic quantum devices.
+The paper demonstrates that a continuously driven mechanical field can substantially increase coherence times while simultaneously enabling fast spin control.
 
----
+The repository extends that result through a sequence of computational notebooks that explore:
 
-## Climate Reality statement
+* spin–strain coupling
+* dressed-state engineering
+* coherence protection
+* resonance management
+* operating-regime expansion
+* spin–phonon interactions
+* phonon-mediated gate pathways
 
-Climate reality describes what engineering prescribes: identify constraints, then build within them.
-
-[
-c = \sqrt{\frac{E}{m}}
-]
-
----
-
-## Notebook map
-
-| Notebook                        | Description                                                                                                  | Colab                                                                                                                                                                                                           |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `00_context.ipynb`              | Paper metadata, engineering statements, seminar questions, and roadmap toward phonon-mediated quantum gates. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/all-mechanical-coherence/blob/main/notebooks/00_context.ipynb)              |
-| `01_siv_centers.ipynb`          | Silicon-vacancy centers as optically active spin qubits in diamond.                                          | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/all-mechanical-coherence/blob/main/notebooks/01_siv_centers.ipynb)          |
-| `07_spin_strain.ipynb`          | Strong spin-strain susceptibility and mechanical control.                                                    | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/all-mechanical-coherence/blob/main/notebooks/07_spin_strain.ipynb)          |
-| `13_dressed_states.ipynb`       | Continuous mechanical driving and protected dressed spin states.                                             | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/all-mechanical-coherence/blob/main/notebooks/13_dressed_states.ipynb)       |
-| `17_coherence_protection.ipynb` | Noise decoupling and coherence protection through mechanically dressed states.                               | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/all-mechanical-coherence/blob/main/notebooks/17_coherence_protection.ipynb) |
-| `23_fast_control.ipynb`         | Ultrafast mechanically driven spin control and the reported ~800 MHz Rabi rates.                             | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/all-mechanical-coherence/blob/main/notebooks/23_fast_control.ipynb)         |
-| `29_jila_seminar.ipynb`         | Seminar questions, live notes, follow-up directions, and future repo planning.                               | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/all-mechanical-coherence/blob/main/notebooks/29_jila_seminar.ipynb)         |
+The goal is not to reproduce the experiment in detail, but to build intuition for how coherence protection becomes an engineering resource for future quantum devices.
 
 ---
 
-## Conceptual progression
+## Notebook Roadmap
+
+| Notebook | Focus                                                   | Colab                                                                                                                                     |
+| -------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| 00       | Context and paper overview                              | https://colab.research.google.com/github/thinkthoughts/all-mechanical-coherence/blob/main/notebooks/00_context.ipynb                      |
+| 01       | SiV centers and mechanical control                      | https://colab.research.google.com/github/thinkthoughts/all-mechanical-coherence/blob/main/notebooks/01_siv_centers.ipynb                  |
+| 07       | Spin–strain interaction                                 | https://colab.research.google.com/github/thinkthoughts/all-mechanical-coherence/blob/main/notebooks/07_spin_strain.ipynb                  |
+| 13       | Dressed-state physics                                   | https://colab.research.google.com/github/thinkthoughts/all-mechanical-coherence/blob/main/notebooks/13_dressed_states.ipynb               |
+| 17       | Coherence protection mechanism                          | https://colab.research.google.com/github/thinkthoughts/all-mechanical-coherence/blob/main/notebooks/17_coherence_protection.ipynb         |
+| 23       | Fast mechanical control                                 | https://colab.research.google.com/github/thinkthoughts/all-mechanical-coherence/blob/main/notebooks/23_fast_control.ipynb                 |
+| 29       | Gate pathways                                           | https://colab.research.google.com/github/thinkthoughts/all-mechanical-coherence/blob/main/notebooks/29_gate_pathways.ipynb                |
+| 29b      | JILA seminar notes                                      | https://colab.research.google.com/github/thinkthoughts/all-mechanical-coherence/blob/main/notebooks/29_jila_seminar.ipynb                 |
+| 31       | Resonance management                                    | https://colab.research.google.com/github/thinkthoughts/all-mechanical-coherence/blob/main/notebooks/31_resonance_management.ipynb         |
+| 31b      | Toward phonon-mediated gates                            | https://colab.research.google.com/github/thinkthoughts/all-mechanical-coherence/blob/main/notebooks/31_toward_phonon_mediated_gates.ipynb |
+| 37       | Dressed-state optimization                              | https://colab.research.google.com/github/thinkthoughts/all-mechanical-coherence/blob/main/notebooks/37_dressed_state_optimization.ipynb   |
+| 41       | Fast-pulse bandwidth limits                             | https://colab.research.google.com/github/thinkthoughts/all-mechanical-coherence/blob/main/notebooks/41_fast_pulse_bandwidth.ipynb         |
+| 47       | Piezoelectric efficiency and operating-regime expansion | https://colab.research.google.com/github/thinkthoughts/all-mechanical-coherence/blob/main/notebooks/47_piezoelectric_efficiency.ipynb     |
+
+---
+
+## Scientific Narrative
+
+The notebooks collectively develop a simple physical story.
 
 ```text
-Context
-    ↓
-SiV spin qubit
-    ↓
-Spin-strain coupling
-    ↓
-Continuous mechanical drive
-    ↓
-Mechanically dressed basis
-    ↓
-Coherence protection
-    ↓
-Fast mechanical control
-    ↓
-Toward phonon-mediated quantum gates
+mechanical drive
+        ↓
+dressed states
+        ↓
+coherence protection
+        ↓
+fast control
+        ↓
+resonance management
+        ↓
+strong spin–phonon coupling
+        ↓
+shared mechanical mode
+        ↓
+effective spin–spin interaction
+        ↓
+phonon-mediated gate pathway
 ```
 
 ---
 
-## Artifacts
+## Engineering Narrative
 
-* Lab report: https://labreports.app/2508-13356/
-* Paper metadata and engineering statements: [`paper.yaml`](paper.yaml)
-* Infographic: [`figures/2508-13356.png`](figures/2508-13356.png)
+From an engineering perspective, coherence protection enlarges the available operating window.
+
+```text
+dressed-state optimization
+        ↓
+pulse bandwidth
+        ↓
+resonance engineering
+        ↓
+piezoelectric efficiency
+        ↓
+expanded operating regime
+        ↓
+more interaction cycles
+        ↓
+greater gate feasibility
+```
 
 ---
 
-## Setup
+## Repository Figures
 
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+### Coherence Protection
+
+The central experimental result is the creation of long-lived dressed states using continuous mechanical driving.
+
+### Resonance Management
+
+The operating regime depends on maintaining strong coupling while avoiding unwanted transitions and decoherence channels.
+
+### Gate Pathways
+
+Protected coherence and strong spin–phonon coupling suggest a route toward mediated interactions through shared mechanical modes.
+
+### Operating-Regime Expansion
+
+Mechanical control expands the available interaction window, allowing more cycles of coherent evolution before decoherence dominates.
+
+---
+
+## Key Takeaway
+
+The paper demonstrates all-mechanical coherence protection of a SiV spin qubit.
+
+The notebook sequence explores how that protected coherence may support increasingly sophisticated operating regimes, including:
+
+* strong spin–phonon coupling
+* resonance engineering
+* shared mechanical modes
+* effective spin–spin interactions
+* prospective phonon-mediated gates
+
+Protected coherence is therefore both a scientific result and an engineering resource. It enlarges the available control window and creates opportunities for future quantum-device architectures based on mechanically mediated interactions.
+
+---
+
+## Citation
+
+```bibtex
+@article{all_mechanical_coherence_2025,
+  title={All-mechanical coherence protection and fast control of a spin qubit},
+  author={},
+  journal={arXiv},
+  year={2025},
+  eprint={2508.13356}
+}
 ```
-
-Open notebooks locally with Jupyter or directly in Google Colab using the buttons above.
