@@ -5,6 +5,10 @@ Repository accompanying:
 **arXiv:2508.13356**
 *All-mechanical coherence protection and fast control of a spin qubit*
 
+**Lab Report
+
+<a href="labreports.app/2508-13356">Labreports.app lab report</a>
+
 This project explores how continuous mechanical driving creates dressed states that protect spin coherence in SiV centers and how those protected operating regimes may support stronger spin–phonon interactions, shared mechanical modes, and future phonon-mediated gate pathways.
 
 ![All-Mechanical Coherence Protection](figures/2508-13356-new2.png)
