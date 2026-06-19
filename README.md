@@ -1,7 +1,7 @@
 # all-mechanical-coherence
 
 <p align="center">
-  <img src="figures/2508-13356.png" alt="Demystifying Quantum Coherence Protection infographic" width="800">
+  <img src="figures/47_operating_regime_expansion.png" alt="Notebook 47 operating regime expansion png" width="800">
 </p>
 
 <p align="center">
